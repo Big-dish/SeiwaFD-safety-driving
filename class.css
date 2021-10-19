@@ -1,0 +1,85 @@
+.accordion{
+    position: relative;
+    left:150px;
+    width: 500px;
+    margin-left: 500px;
+}
+.accordion-trigger{
+    margin: 0;
+    padding: 10px;
+    display: block;
+    background: #333;
+    color: #fff;
+    border-top: 1px solid #fff;
+    word-wrap: break-word;
+    text-align: left;
+}
+.accordion-contents{
+    margin: 0;
+    padding: 10px;
+    border:1px solid #ccc;
+    word-wrap: break-word;
+    display: none;
+}
+
+/*吹き出しの作成*/
+.balance{
+    float: left;  
+}
+.box24 {
+    position: relative;top:-140px;left:10px;
+    padding: 0.5em 0.7em;
+    margin: 2em 0;
+    background: #e6f4ff;
+    color: navy;
+    font-weight: bold;
+    display: inline-block;
+ }
+.box24:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: -30px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid #e6f4ff;
+    width: 0;
+    height: 0;
+}
+.box24 p {
+    margin: 0; 
+    padding: 0;
+}
+
+/*botton*/
+.btn-btn{
+    position: relative;top:100px; left: 100px;
+}
+.btn-flat-simple {
+    font-weight: bold;
+    padding: 0.8em 0.8em;
+    text-decoration: none;
+    color: #fff;
+    background: #00b;
+    transition: .4s;
+    border-radius: 10px;
+  }
+  .btn-flat-simple:hover {
+    background: #00bcd4;
+    color: white;
+  }
+  .btn-flat-simple:hover + .result {
+    color: red;
+  }
+
+  /*footer*/
+/*footer*/
+footer{
+    background: brown;
+    padding: 20px 0;
+    text-align: center;
+    height: 60px;
+}
+footer p{
+    font-size: 1rem;
+}

@@ -1,0 +1,81 @@
+ 
+.home-hero{
+    background: url('../source corporate/Firefighter-Vector-Set.jpg') no-repeat 
+    right top/65vw auto;
+    padding: 5.5rem 1rem 3rem;
+}
+
+
+
+
+.home-hero h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin:8vw 0 12vw;
+    background: rgba(161, 155, 155, 0.8);
+    padding: 1rem;
+    display: inline-block;
+};
+.home-hero p{
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    color: #fff;
+    background-color: blue;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 3px #27129c;
+    position: relative;
+    display: inline-block;
+    top: -2px;
+    padding: 10px 20px;
+}
+.btn:hover{
+    box-shadow: 0 1px #27129c;
+    top: 1px;
+}
+
+
+@media(min-width: 600px){
+    .home-hero{
+        padding: 16vw 1rem;
+    }
+    .home-hero h2{
+        font-size: 2.5rem;
+        margin: 0 0 2rem;
+        background: none;
+        padding: 0;
+    }
+    .home-hero p{
+        width: 38vw;
+    }
+}
+
+/*footer*/
+footer{
+    background: brown;
+    padding: 20px 0;
+    text-align: center;
+    height: 60px;
+}
+footer p{
+    font-size: 1rem;
+}
+
+
+/*
+DESKTOPSIZE
+============================ */
+@media (min-width:600px){
+    .content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem 1rem;
+    }
+    .flex-reverse{
+        flex-direction: row-reverse;
+    }
+}

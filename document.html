@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="">
+<!--css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css"> 
+    <link rel="stylesheet" href="document.css">
+</head>
+<body>
+    <section class="brown-bg">
+        <div class="wrapper content flex-reverse">
+            <div class="home-text">
+            <h2 class="title">誘導員は事故を防ぐのか？</h2>
+            <p>誘導員無しの状況下で、大半の事故が発生しました。</p>
+            <ul>
+                <li>軒先</li>
+                <li>側溝</li>
+                <li>置き石</li>
+                <li>木の枝</li>
+                <li>老朽した蓋</li>
+                <li>グレーチング</li>
+                <span class="marker_yellow">危険因子を察知</span>して誘導員を配置しましょう。
+            </ul>
+            </div>
+            <div class="home-chart">
+                <div class="pie-chart"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brown-bg">
+        <div class="wrapper content">
+            <div class="home-text">
+            <h2 class="title">事故は後退中に多いのか？</h2>
+            <p>
+                公用車の事故は前進中に多いことが分かります。<br>
+                前進中にこそ”慎重”な運転が求められます。
+            </p>
+            </div>
+            <div class="home-chart">
+                <div class="piepie-chart"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="wrapper content-t">
+        <div class="home-text">
+                <h2 class="title">進行方向と事故の相関関係</h2>
+                <p>
+                    前進中＋誘導無しで事故が多発します。
+                </p>
+            <div class="home-chart">
+                <div class="ct-chart"></div>
+                <p class="pp"><b>誘導の有無で色分け</b></p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="wrapper content-t">
+        <div class="home-text">
+                <h2 class="title">車両別の事故件数</h2>
+                <p>
+                    救急車とポンプ車で事故の大半を占めます。<br>
+                    機関員だけでなく<span class="marker_yellow">『隊』</span>で事故防止に取り組みましょう。
+                </p>
+        </div>
+        <div class="home-chart">
+            <div class="bar-chart"></div>
+        </div>            
+    </section> 
+
+
+    <section class="wrapper content-t">
+        <div class="home-text">
+                <h2 class="title">事故の相手方</h2>
+                <p>
+                    最も多いのは物、塀など（敷地外）でした。<br>
+                </p>
+        </div>
+        <div class="home-chart">
+            <div class="barbar-chart"></div>
+        </div>            
+    </section> 
+
+
+    <!--仮-->
+    <section class="brown-bg">
+        <div class="wrapper content">
+            <div class="home-text">
+            <h2 class="title">オーバーハングの脅威</h2>
+            <p>検証の結果<br><br>
+                ポンプ車で４５ｃｍ<br></p>
+            <p>救助工作車で６５ｃｍ程、張り出します。</p>
+
+            </div>
+            <img id="js_trigger" src ="image11.jpeg" alt="ポップアップ">
+            </div>   
+
+        </div>
+    </section>
+
+
+
+
+    <section>
+        <div class="wrapper-w content-t">
+            <div class="home-text">
+                <h2 class="title">時間帯別の事故件数</h2>
+                <p>
+                    ９時と１０時台が最も事故が多いです。
+                    しかし、昼休憩を終え人流が再開する１３時以降は、日没まで事故が多く気が抜けません。<br>
+                    疲労を感じたら<span class="marker_yellow">休息</span>しましょう。
+                </p>
+            </div>
+            <div class="home-chart">
+                <div class="line-chart"></div>
+            </div>
+        </div> 
+    </section>
+
+    <button id="page-top" class="page-top"></button>
+    <script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+    <script src="document.js"></script>
+</body>
+<footer>
+    <div class="wrapper">
+        <p><small>&copy;2021 SeiwaFireDept</small></p>
+    </div>
+</footer>
+</html>
